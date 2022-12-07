@@ -6,8 +6,8 @@ urlpatterns = [
     path("",views.index),
     path("home",views.home),
     path("contact",views.contact),
-    path("portfoilo",views.home),
-    path("client",views.contact),
+    path("#",views.home),
+    path("#",views.contact),
 
 
     
